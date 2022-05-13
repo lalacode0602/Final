@@ -1,0 +1,8 @@
+1017,Are You Smart Enough to Work at Google?,290,3.52,9780320000000,2012-01-04
+1018,Elements of ML Programming Ml97 Edition,400,3.7,9780140000000,1998-01-01
+1019,Scrum and XP from the Trenches,140,4.17,9781430000000,2007-10-05
+1020,What is HTML 5?,27,3.31,Null,Null
+1021,Becoming a Technical Leader: An Organic Problem-Solving Approach,284,4.09,9780930000000,1986-01-01
+1022,The Text Mining Handbook: Advanced Approaches in Analyzing Unstructured Data,410,3.95,9780520000000,2013-08-15
+1029,Six Degrees: The Science of a Connected Age,384,3.9,9780390000000,2004-02-17
+1030,Big Data Now: Current Perspectives from OReilly Radar,137,3.33,Null,Null

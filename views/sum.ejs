@@ -1,0 +1,37 @@
+<%- include("_header") -%>
+
+<h2>Calculate Sum of a Series </h2>
+
+<form action="/sum" method="POST">
+  <table>
+      <tr>
+          <td><label for="strnum">Enter Starting Number</label>:</td>
+          <td><input type="number" name="strnum" id="strnum" value="<%= nums.strnum %>" required/></td>
+          <td>(required)</td>
+      </tr>
+      <tr>
+          <td><label for="endnum">Enter Ending Number</label>:</td>
+          <td><input type="number" name="endnum" id="endnum" value="<%= nums.endnum %>" required/></td>
+          <td>(required)</td>
+      </tr>
+      <tr>
+        <td><label for="incr">Enter Increment</label>:</td>
+        <td><input type="number" name="incr" id="incr" value="<%= nums.incr %>" required/></td>
+        <td>(required)</td>
+    </tr>
+    <tr>
+      <td span="2">
+          <input type="submit" value="Calculate Sum" class="btn btn-default btn-success" />
+      </td>
+  </tr>
+  </table>
+</form>
+
+<% if (type === "post") { %>
+  <% if (message === "success") { %>
+      <h4>The sum of the numbers from <%= nums.strnum %> to <%= nums.endnum %> incremented by <%= nums.incr %> is <strong><%= result %></strong></h4>
+  <% } else { %>
+    <h2 style="color:red;">Starting number must be less than ending number</h2>
+     <% }} %>
+
+<%- include("_footer") -%>
